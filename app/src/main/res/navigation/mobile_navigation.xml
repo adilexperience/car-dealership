@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mobile.car_dealership.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_add_car"
+        android:name="com.mobile.car_dealership.ui.add_car.AddCarFragment"
+        android:label="@string/menu_add_car"
+        tools:layout="@layout/fragment_add_place" />
+
+    <fragment
+        android:id="@+id/nav_search_car"
+        android:name="com.mobile.car_dealership.ui.search_car.SearchCarFragment"
+        android:label="@string/menu_search_car"
+        tools:layout="@layout/fragment_search_place" />
+</navigation>
