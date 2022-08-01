@@ -3,8 +3,8 @@ package com.mobile.car_dealership;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.mobile.searchplaces.R;
-import com.mobile.searchplaces.databinding.ActivityHomeBinding;
+import com.mobile.car_dealership.R;
+import com.mobile.car_dealership.databinding.ActivityHomeBinding;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;

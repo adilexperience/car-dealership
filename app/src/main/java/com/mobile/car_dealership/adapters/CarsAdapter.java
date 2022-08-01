@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.mobile.car_dealership.CarDetailActivity;
 import com.mobile.car_dealership.models.CarModel;
-import com.mobile.searchplaces.R;
+import com.mobile.car_dealership.R;
 
 import java.util.ArrayList;
 

@@ -22,7 +22,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 import com.mobile.car_dealership.database.DatabaseHelper;
 import com.mobile.car_dealership.models.CarModel;
-import com.mobile.searchplaces.R;
+import com.mobile.car_dealership.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;

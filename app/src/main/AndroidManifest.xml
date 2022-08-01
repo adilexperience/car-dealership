@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mobile.car_dealership" >
+    package="com.mobile.car_dealership">
 
     <application
         android:allowBackup="true"
@@ -8,11 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SearchPlaces" >
+        android:theme="@style/Theme.SearchPlaces">
         <activity
-            android:name="com.mobile.car_dealership.HomeActivity"
-            android:exported="true"
-            android:label="@string/title_activity_home" >
+            android:name=".SplashActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +19,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.mobile.car_dealership.CarDetailActivity"
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".CarDetailActivity"
             android:exported="false" />
     </application>
 

@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.mobile.car_dealership.models.CarModel;
-import com.mobile.searchplaces.R;
+import com.mobile.car_dealership.R;
 
 public class CarDetailActivity extends AppCompatActivity {
 
