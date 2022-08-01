@@ -9,7 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.mobile.car_dealership.models.CarModel;
-import com.mobile.car_dealership.R;
 
 public class CarDetailActivity extends AppCompatActivity {
 
@@ -20,7 +19,7 @@ public class CarDetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_place_detail);
+        setContentView(R.layout.activity_car_detail);
 
         car = (CarModel) getIntent().getSerializableExtra("car");
 

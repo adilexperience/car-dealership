@@ -32,7 +32,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void addCar(CarModel place) {
         ContentValues values = new ContentValues();
         values.put("NAME", place.getName());
-        values.put("DESCRIPTION", place.getName());
+        values.put("DESCRIPTION", place.getDescription());
         values.put("HP", place.getHp());
         values.put("IMAGE", place.getImage());
         this.getWritableDatabase().insert(carsTable, null, values);

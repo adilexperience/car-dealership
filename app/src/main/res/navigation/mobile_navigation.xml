@@ -15,7 +15,7 @@
         android:id="@+id/nav_add_car"
         android:name="com.mobile.car_dealership.ui.add_car.AddCarFragment"
         android:label="@string/menu_add_car"
-        tools:layout="@layout/fragment_add_place" />
+        tools:layout="@layout/fragment_add_car" />
 
     <fragment
         android:id="@+id/nav_search_car"

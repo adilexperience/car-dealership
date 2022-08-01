@@ -70,7 +70,7 @@ public class AddCarFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_add_place, container, false);
+        View view = inflater.inflate(R.layout.fragment_add_car, container, false);
 
         fabSelectImage = view.findViewById(R.id.fab_select_image);
         ivSelectedImage = view.findViewById(R.id.iv_selected_image);
@@ -100,7 +100,7 @@ public class AddCarFragment extends Fragment {
                 }else if(description.isEmpty()) {
                     Toast.makeText(getContext(), "Enter car description", Toast.LENGTH_SHORT).show();
                 }else if(rating.isEmpty()) {
-                    Toast.makeText(getContext(), "Enter car rating", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(), "Enter car horse power", Toast.LENGTH_SHORT).show();
                 }else {
                     double doubleHP = Double.parseDouble(rating);
 
